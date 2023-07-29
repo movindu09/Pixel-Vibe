@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Vibe</title>
+    <link rel="stylesheet" href="comments-style.css">
+    <link rel="stylesheet" href="NavBar/navbar-style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="icon" type="image/x-icon" href="img/logo.png">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+      <a class="logo">Pixel <span>Vibe.</span></a>
+      <div class="bx bx-menu" id="menu-icon"></div>
+
+      <ul class="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="addtocart.html">Shop</a></li>
+          <li><a href="QuizStartPage.html">Quiz</a></li>
+          <li><a href="thumbnail.html">Gallery</a></li>
+          <li><a href="sitemap.html">Site Map</a></li>
+          <li><a class="active" href="comments.html">Comments</a></li>
+          <li><a href="StudentDetails.html">About us</a></li>
+      </ul>
+  </header>
+
+    <section class="test-box" id="test-box">
+    <div class="testbox">
+    <form id="Feedback" action="mailto:movidu.20220113@iit.ac.lk" method="post">
+        <h1>Leave a Comment on this Website</h1>
+        <p class="question">Is this the first time you have visited the website?</p>
+        <div class="question-answer1">
+            <label>yes</label><input type="radio" value="yes" name="visited" required>
+            <label>no</label><input type="radio" value="no" name="visited">    
+        </div>
+        <p class="question">How satisfied were you with website today? Chose from 0 to 10, where 0 is extremely dissatisfied and 10 is extremely satisfied.</p>
+        <div class="question-answer2" >
+            <label>0<br><input type="radio" value="0" name="satisfied" required></label>
+            <label>1<br><input type="radio" value="1" name="satisfied"></label>
+            <label>2<br><input type="radio" value="2" name="satisfied"></label>
+            <label>3<br><input type="radio" value="3" name="satisfied"></label>
+            <label>4<br><input type="radio" value="4" name="satisfied"></label>
+            <label>5<br><input type="radio" value="5" name="satisfied"></label>
+            <label>6<br><input type="radio" value="6" name="satisfied"></label>
+            <label>7<br><input type="radio" value="7" name="satisfied"></label>
+            <label>8<br><input type="radio" value="8" name="satisfied"></label>
+            <label>9<br><input type="radio" value="9" name="satisfied"></label>
+            <label>10<br><input type="radio" value="10" name="satisfied"></label>    
+        </div>
+        <div class="question3"><br><br>
+        <p class="question3">Please could you tell us your reason for giving this rating?</p>
+        <textarea name="reason" rows="5" placeholder="Enter your reason here..." required></textarea>
+        </div>
+        <p class="question">How did you want to complete this task today? (optional)</p>
+        <select name="task" id="task-select" >
+            <option value="">--Please choose an option--</option>
+            <option value="phone">Phone</option>
+            <option value="website">Website</option>
+            <option value="webchat">Webchat</option>
+            <option value="Social Media">Social Media</option>
+            <option value="email">Email</option>
+        </select>
+        <p class="question">If you had to complete this task again,how would you prefer to do it? (optional)</p>
+        <select name="task2" id="task-select2">
+            <option value="">--Please choose an option--</option>
+            <option value="phone">Phone</option>
+            <option value="website">Website</option>
+            <option value="webchat">Webchat</option>
+            <option value="Social Media">Social Media</option>
+            <option value="email">Email</option>
+        </select>
+        <br><input class="submit" type="submit" >
+    </form>
+    </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer" id="footer">
+        <div class="footer-box">
+            <h2>Pixel <span>Vibe.</span></h2>
+            <p>Where creativity meets beauty and inspiration knows no bounds. Step into a world of artistic wonders, where each brushstroke, sculpture, and NFT's tells a captivating story.</p>
+            <div class="social">
+                <a href="https://www.facebook.com/"><i class='bx bxl-facebook'></i></a>
+                <a href="https://twitter.com/"><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.instagram.com/"><i class='bx bxl-instagram'></i></a>
+            </div>
+            <div class="page-editor">
+                <a href="page-editor-S2.html">Page Editor</a>
+            </div>
+            <p>This page is designed and coded by : Student 2</p>
+        </div>
+        <div class="footer-box">
+            <h3>Services</h3>
+            <ul>
+            <li><a href="addtocart.html">Products</a></li>
+            <li><a href="QuizStartPage.html">Quiz</a></li>
+            <li><a href="comments.html">Comments</a></li>
+            <li><a href="StudentDetails.html">About us</a></li>
+            </ul>
+        </div> 
+        <div class="footer-box contact-info">
+            <h3>Contact</h3>
+            <span>Colombo, Sri Lanka 10000</span>
+            <span>+94 76 862 6511</span>
+            <span>PixelVibe@PixelVibe.com</span>
+        </div>
+    </section>
+    <div class="copyright">
+        <p>&#169; PixelVibe All Right Reserved.</p>
+    </div>
+    <!-- Link To JS -->
+    <script src="main.js"></script>
+</body>
+</html>

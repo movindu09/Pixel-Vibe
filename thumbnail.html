@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thumbnail</title>
+  <link rel="stylesheet" href="bootstrap.css" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/f77fc8e19a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <header>
+    <a class="logo">Pixel <span>Vibe.</span></a>
+    <div class="bx bx-menu" id="menu-icon"></div>
+
+    <ul class="navbar-custom">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="addtocart.html">Shop</a></li>
+      <li><a href="QuizStartPage.html">Quiz</a></li>
+      <li><a href="thumbnail.html">Gallery</a></li>
+      <li><a href="sitemap.html">Site Map</a></li>
+      <li><a href="comments.html">Comments</a></li>
+      <li><a href="StudentDetails.html">About us</a></li>
+    </ul>
+  </header>
+
+  <section id="thumbnail-main">
+    <div class="container">
+      <div class="row">
+        <div class="col-2">
+          <p>Select Font Size:</p>
+          <select name="text-size" id="text-size" onchange="changeFontSize()">
+            <option value="14">14px</option>
+            <option value="16">16px</option>
+            <option value="20">20px</option>
+            <option value="24">24px</option>
+            <option value="32">32px</option>
+          </select>
+        </div>
+        <div class="col-2">
+          <p>Select Font Color:</p>
+          <select name="text-color" id="text-color" onchange="changeFontColor()">
+            <option value="black">Black</option>
+            <option value="blue">Blue</option>
+            <option value="purple">Purple</option>
+            <option value="green">Green</option>
+            <option value="red">Red</option>
+            <option value="gray">Gray</option>
+            <option value="navy">Navy</option>
+            <option value="teal">Teal</option>
+            <option value="maroon">Maroon</option>
+            <option value="brown">Brown</option>
+            <option value="olive">Olive</option>
+          </select>
+        </div>
+        <div class="col-8"></div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-2">
+          <img src="img/th1.png" alt="" onclick="changeThumbnail(1)" class="zoom-image" />
+        </div>
+        <div class="col-2">
+          <img src="img/th2.png" alt="" onclick="changeThumbnail(2)" class="zoom-image" />
+        </div>
+        <div class="col-2">
+          <img src="img/th3.png" alt="" onclick="changeThumbnail(3)" class="zoom-image" />
+        </div>
+        <div class="col-2">
+          <img src="img/th4.png" alt="" onclick="changeThumbnail(4)" class="zoom-image" />
+        </div>
+        <div class="col-2">
+          <img src="img/th5.png" alt="" onclick="changeThumbnail(5)" class="zoom-image" />
+        </div>
+        <div class="col-2">
+          <img src="img/th6.png" alt="" onclick="changeThumbnail(6)" class="zoom-image" />
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-5" id="thumbnail-image">
+          <img id="selected-image" src="img/th1.png" alt="" />
+        </div>
+        <div class="col-7" id="thumbnail-desc">
+          <h2><b>Mona Lisa</b></h2>
+          <h4>PAINTING</h4>
+          <hr/>
+          <p>
+            Mona Lisa is a world-renowned portrait painted by Leonardo da
+            Vinci, known for its enigmatic smile and captivating gaze,
+            attracting millions of visitors to the Louvre Museum each year.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr>
+  <!-- Footer -->
+  <section class="footer" id="footer">
+    <div class="footer-box">
+      <h2>Pixel <span>Vibe.</span></h2>
+      <p>Where creativity meets beauty and inspiration knows no bounds. Step into a world of artistic wonders, where
+        each brushstroke, sculpture, and NFT's tells a captivating story.</p>
+      <div class="social">
+        <a href="#"><i class='bx bxl-facebook'></i></a>
+        <a href="#"><i class='bx bxl-twitter'></i></a>
+        <a href="#"><i class='bx bxl-instagram'></i></a>
+      </div>
+    </div>
+    <div class="footer-box">
+      <h3>Services</h3>
+      <li><a href="addtocart.html">Products</a></li>
+      <li><a href="QuizStartPage.html">Quiz</a></li>
+      <li><a href="comments.html">Comments</a></li>
+      <li><a href="StudentDetails.html">About us</a></li>
+    </div>
+    <div class="footer-box contact-info">
+      <h3>Contact</h3>
+      <span>Colombo, Sri Lanka 10000</span>
+      <span>+94 76 862 6511</span>
+      <span>PixelVibe@PixelVibe.com</span>
+
+    </div>
+  </section>
+  <div class="copyright">
+    <p>&#169; PixelVibe All Right Reserved.</p>
+  </div>
+
+  <script src="bootstrap.js"></script>
+  <script src="S4-main.js"></script>
+</body>
+
+</html>

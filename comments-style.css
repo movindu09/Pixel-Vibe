@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+:root {
+  --text-color: #000000;
+  --main-color: #000000;
+}
+
+
+.heading h1{
+  margin-top: 5%;
+  text-align: left;
+
+}
+
+.heading li{
+  list-style: disc;
+}
+
+.image1{
+  width: 500px;
+  height: auto;
+  margin-left: 500px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
+}
+
+.testbox {
+  margin-top: 10%;
+  height: inherit;
+}
+
+.question {
+    padding: 15px 0 5px;
+    color: #095484;
+}
+
+.question3{
+  padding: 15px 0 5px;
+  color: #095484;
+}
+.question-answer1 label{
+  padding: 0 1em;
+}
+
+.question-answer2 label{
+  float: left;
+  padding: 0 1em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 100% ;
+  padding: 10px;
+  line-height: 1.5;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px #999;
+  }
+
+.submit {
+    background: #ff0080;
+    color: #fff;
+    border: 1px solid #eee;
+    border-radius: 100px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow: none;
+    width: 90px; 
+    height: 35px; 
+    font-size: 15px; 
+    text-align: center;
+    margin-top: 30px;
+}
+  
+.submit:hover {
+  background: #ff4fa7;
+  color: #fff;
+  border: 1px solid #eee;
+  border-radius: 100px;
+  box-shadow: 5px 5px 5px #eee;
+  text-shadow: none;
+  width: 90px; 
+  height: 35px; 
+  font-size: 15px; 
+  text-align: center;
+  margin-top: 30px;
+}
+
+.page-editor a{
+  color: #ff0080;
+  margin-top: 50px;
+  font-weight: bold;
+}
+

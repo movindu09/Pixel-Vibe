@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to external icon library -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- Link to custom navbar stylesheet -->
+    <link rel="stylesheet" href="NavBar/navbar-style.css">
+    <!-- Link to custom checkout stylesheet -->
+    <link rel="stylesheet" href="checkout-style.css">
+    <title>Checkout</title>
+    <link rel="icon" type="image/x-icon" href="img/logo.png">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <!-- Logo with the text "Pixel Vibe" -->
+        <a class="logo">Pixel <span>Vibe.</span></a>
+        <!-- Hamburger menu icon for mobile navigation -->
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <!-- Navigation links -->
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="addtocart.html">Shop</a></li>
+            <li><a href="QuizStartPage.html">Quiz</a></li>
+            <li><a href="thumbnail.html">Gallery</a></li>
+            <li><a href="sitemap.html">Site Map</a></li>
+            <li><a href="comments.html">Comments</a></li>
+            <li><a href="StudentDetails.html">About us</a></li>
+        </ul>
+    </header>
+
+    <div class="container">
+        <!-- Checkout form section -->
+        <form action="#" method="Post">
+            <!-- First column -->
+            <div class="row">
+                <div class="col">
+                    <!-- Title for the checkout section -->
+                    <h3 class="title">Checkout</h3>
+                    <!-- Input fields for user information -->
+                    <div class="inputBox">
+                        <span>full name :</span>
+                        <input type="text" placeholder="Jon Snow">
+                    </div>
+                    <div class="inputBox">
+                        <span>email :</span>
+                        <input type="email" placeholder="example@gmail.com">
+                    </div>
+                    <div class="inputBox">
+                        <span>address :</span>
+                        <input type="text" placeholder="Street - State - Province">
+                    </div>
+                    <div class="inputBox">
+                        <span>city :</span>
+                        <input type="text" placeholder="Colombo">
+                    </div>
+                    <!-- Flex container for state and postal code inputs -->
+                    <div class="flex">
+                        <div class="inputBox">
+                            <span>state :</span>
+                            <input type="text" placeholder="Colombo">
+                        </div>
+                        <div class="inputBox">
+                            <span>Postal code :</span>
+                            <input type="text" placeholder="12345">
+                        </div>
+                    </div>
+                </div>
+                <!-- Second column -->
+                <div class="col">
+                    <!-- Title for the payment section -->
+                    <h3 class="title">payment</h3>
+                    <!-- Input fields for payment information -->
+                    <div class="inputBox">
+                        <span>cards accepted :</span>
+                        <img src="img/card_img.png" alt="">
+                    </div>
+                    <div class="inputBox">
+                        <span>name on card :</span>
+                        <input type="text" placeholder="MR. Jon Snow">
+                    </div>
+                    <div class="inputBox">
+                        <span>credit card number :</span>
+                        <input type="number" placeholder="1111-2222-3333-4444">
+                    </div>
+                    <div class="inputBox">
+                        <span>exp month :</span>
+                        <input type="text" placeholder="january">
+                    </div>
+                    <!-- Flex container for exp year and CVV inputs -->
+                    <div class="flex">
+                        <div class="inputBox">
+                            <span>exp year :</span>
+                            <input type="number" placeholder="2022">
+                        </div>
+                        <div class="inputBox">
+                            <span>CVV :</span>
+                            <input type="text" placeholder="123">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Submit button -->
+            <input type="submit" value="proceed to checkout" class="submit-btn">
+        </form>
+    </div>  
+    <!-- Footer -->
+    <section class="footer" id="footer">
+        <!-- Footer content -->
+        <div class="footer-box">
+            <h2>Pixel <span>Vibe.</span></h2>
+            <p>Where creativity meets beauty and inspiration knows no bounds. Step into a world of artistic wonders, where each brushstroke, sculpture, and NFT's tells a captivating story.</p>
+            <!-- Social media links -->
+            <div class="social">
+                <a href="https://www.facebook.com/"><i class='bx bxl-facebook'></i></a>
+                <a href="https://twitter.com/"><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.instagram.com/"><i class='bx bxl-instagram'></i></a>
+            </div>
+            <!-- Link to the page editor -->
+            <div class="page-editor">
+                <a href="editor-S1.html">Page Editor</a>
+                <p>Created by = student 1</p>
+            </div>
+        </div>
+        <!-- Footer box with service links -->
+        <div class="footer-box">
+            <h3>Services</h3>
+            <ul>
+                <li><a href="addtocart.html">Shop</a></li>
+                <li><a href="QuizStartPage.html">Quiz</a></li>
+                <li><a href="comments.html">Comments</a></li>
+                <li><a href="StudentDetails.html">About us</a></li>
+                </ul>
+        </div> 
+        <!-- Footer box with contact information -->
+        <div class="footer-box contact-info">
+            <h3>Contact</h3>
+            <span>Colombo, Sri Lanka 10000</span>
+            <span>+94 76 862 6511</span>
+            <span>PixelVibe@PixelVibe.com</span>
+        </div>
+    </section>
+    <!-- Copyright notice -->
+    <div class="copyright">
+        <p>&#169; PixelVibe All Right Reserved.</p>
+    </div>
+    <!-- JavaScript file link -->
+    <script src="addtocart.js"></script>  
+</body>
+</html>

@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    height: 80vh;
+    overflow-x: hidden;
+}
+
+
+:root {
+    --text-color: #000000;
+    --main-color: #000000;
+}
+
+/*----Quiz Box----*/
+.box {
+    background-color: rgb(211, 211, 211);
+    width: 90%;
+    max-width: 600px;
+    /* margin: 100px auto 0; */
+    padding: 30px;
+    padding-top: 20px;
+    box-shadow: 0 0 6px rgba(147, 144, 144, 0.943),
+        0 0 56px rgba(145, 143, 143, 0.858);
+    position: relative;
+    /* Set the position to 'sticky' */
+    top: 100px; 
+    /* Adjust the top value as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 5%;
+}
+
+.box h1 {
+    color: black;
+    font-size: 35px;
+    font-weight: 600;
+    border-bottom: 1px solid black;
+    padding-bottom: 14px;
+}
+
+/*----Timer----*/
+.box #timer {
+    background: #0c0844;
+    color: white;
+    font-size: 18px;
+    /* Adjust the font size as needed */
+    height: 36px;
+    /* Adjust the height to match the font size */
+    font-weight: 500;
+    padding: 6px 9px;
+    border-radius: 5px 10px;
+    float: right;
+    margin-top: -50px;
+    box-shadow: 0 -1px 18px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.time_left {
+    float: right;
+    margin: 6px;
+    padding: 6px 9px 0;
+    font-weight: 600;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.number_of_count {
+    padding: 15px 0 15px;
+}
+
+.quiz {
+    padding: 6px 0;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    padding: 30px;
+    padding-top: 20px;
+    box-shadow: 0 0 6px rgba(147, 144, 144, 0.943),
+        0 0 56px rgba(145, 143, 143, 0.858);
+}
+
+#background {
+    margin-top: -40%;
+}
+
+.quiz h2 {
+    font-size: 20px;
+    color: #000;
+    font-weight: 600;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.quiz #answer_btns {
+    max-width: 500px;
+    /* Limit the width of the answer buttons */
+    margin: 0 auto;
+    /* Center the answer buttons */
+}
+
+.btn {
+    color: black;
+    background: rgb(158, 158, 158);
+    font-weight: 505;
+    width: 100%;
+    padding: 11px;
+    border: 1px solid black;
+    margin: 11px 0;
+    text-align: left;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn:hover:not([disabled]) {
+    background: rgb(0, 0, 0);
+    color: white;
+}
+
+.btn:disabled {
+    cursor: no-drop;
+}
+
+#next_btn {
+    background-color: #0c0844;
+    color: white;
+    font-size: 15px;
+    width: 133px;
+    height: 35px;
+    padding: 6px 0;
+    border: 0;
+    margin: 20px auto 0;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+
+#next_btn:hover {
+    background-color: #1a1267;
+}
+
+.correct {
+    background: #2c8552;
+}
+
+.incorrect {
+    background: #fc0000a1;
+}
+
+.button {
+    background-color: #a1a1a1;
+    color: #000000;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #ff0080a1;
+}

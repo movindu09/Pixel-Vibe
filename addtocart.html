@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Shop Page</title>
+        <!-- Link to custom stylesheets -->
+        <link rel="stylesheet" href="addtocart-style.css">
+        <link rel="stylesheet" href="NavBar/navbar-style.css">
+        <!-- Link to external icon library -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+        <!-- Link to Font Awesome icon library -->
+        <script src="https://kit.fontawesome.com/92d70a2fd8.js" crossorigin="anonymous"></script>
+        <link rel="icon" type="image/x-icon" href="img/logo.png">
+    </head>
+    <body>
+        <!-- Navbar -->
+        <header>
+            <!-- Logo with the text "Pixel Vibe" -->
+            <a class="logo">Pixel <span>Vibe.</span></a>
+            <!-- Hamburger menu icon for mobile navigation -->
+            <div class="bx bx-menu" id="menu-icon"></div>
+
+            <!-- Navigation links -->
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="addtocart.html">Shop</a></li>
+                <li><a href="QuizStartPage.html">Quiz</a></li>
+                <li><a href="thumbnail.html">Gallery</a></li>
+                <li><a href="sitemap.html">Site Map</a></li>
+                <li><a href="comments.html">Comments</a></li>
+                <li><a href="StudentDetails.html">About us</a></li>
+            </ul>
+        </header>
+
+        <!-- Shopping cart header section -->
+        <div class="header">
+            <p class="logo">SHOP PAGE</p>
+            <!-- Shopping cart icon with a counter -->
+            <div class="cart"><i class="fa-solid fa-cart-shopping"></i><p id="count">0</p></div>
+        </div>
+        <!-- Main content container -->
+        <div class="container">
+            <!-- Main content area -->
+            <div id="root"></div>
+            <!-- Sidebar displaying cart items -->
+            <div class="sidebar">
+                <!-- Sidebar header -->
+                <div class="head"><p>My Cart</p></div>
+                <!-- Cart items (initially empty) -->
+                <div id="cartItem">Your cart is empty</div>
+                <!-- Footer of the sidebar showing the total amount -->
+                <div class="foot">
+                    <h3>Total</h3>
+                    <h2 id="total">$ 0.00</h2>
+                </div>
+                <!-- Button to proceed to checkout -->
+                
+               <a href="checkout.html" class="link-button">
+               <button type="button">Proceed to Checkout: $<span id="checkoutTotal">0</span></button>
+               </a>
+  
+            </div>
+        </div>
+        
+        <!-- Footer -->
+        <section class="footer" id="footer">
+            <!-- Footer box containing company information -->
+            <div class="footer-box">
+                <h2>Pixel <span>Vibe.</span></h2>
+                <p>Where creativity meets beauty and inspiration knows no bounds. Step into a world of artistic wonders, where each brushstroke, sculpture, and NFT's tells a captivating story.</p>
+                <!-- Social media links -->
+                <div class="social">
+                    <a href="https://www.facebook.com/"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://twitter.com/"><i class='bx bxl-twitter'></i></a>
+                    <a href="https://www.instagram.com/"><i class='bx bxl-instagram'></i></a>
+                </div>
+                <!-- Link to the page editor -->
+                <div class="page-editor">
+                    <a href="editor-S1.html">Page Editor</a>
+                    <p>Created by = student 1</p>
+                </div>
+            </div>
+            <!-- Footer box with service links -->
+            <div class="footer-box">
+                <h3>Services</h3>
+                <ul>
+                <li><a href="addtocart.html">products</a></li>
+                <li><a href="QuizStartPage.html">Quiz</a></li>
+                <li><a href="comments.html">Comments</a></li>
+                <li><a href="StudentDetails.html">About us</a></li>
+                </ul>
+            </div> 
+            <!-- Footer box with contact information -->
+            <div class="footer-box contact-info">
+                <h3>Contact</h3>
+                <span>Colombo, Sri Lanka 10000</span>
+                <span>+94 76 862 6511</span>
+                <span>PixelVibe@PixelVibe.com</span>
+            </div>
+        </section>
+        <!-- Copyright notice -->
+        <div class="copyright">
+            <p>&#169; PixelVibe All Right Reserved.</p>
+        </div>
+
+        <!-- Script for cart functionality -->
+        <script src="addtocart.js"></script>
+    </body>
+</html>

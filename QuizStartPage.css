@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --text-color: #000000;
+    --main-color: #000000;
+}
+
+.QUIZ {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    /* Set text color to white */
+    background-image: url("img/quiz-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.Quiz-content {
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    /* Vertically center the content */
+    left: 50%;
+    /* Horizontally center the content */
+    transform: translate(-50%, -50%);
+    /* Center the content precisely */
+    z-index: 1;
+    /* Ensure the content is above the background image */
+}
+
+.Quiz-content h1 {
+    font-size: 32px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.Quiz-content p {
+    font-size: 18px;
+    color: #d4d4d4;
+    margin-bottom: 10px;
+}
+
+.Quiz-content .start-btn {
+    background-color: #a1a1a1;
+    color: #000000;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.Quiz-content .start-btn:hover {
+    background-color: #224e5c;
+}
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(.9);
+    width: 500px;
+    background: rgb(77, 77, 77);
+    border-radius: 7px;
+    padding: 10px 25px;
+    opacity: 0;
+    pointer-events: none;
+    transition: .3s ease;
+    z-index: 2;
+    /* Set a higher z-index to ensure it appears above other elements */
+}
+
+.popup.active {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.popup h2 {
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.404);
+}
+
+.popup .info {
+    display: inline-block;
+    font-size: 16px;
+    color: #ffffffc7;
+    font-weight: 500;
+    margin: 4px 0;
+}
+
+.popup .buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    padding: 15px 0 5px;
+}
+
+.popup .buttons .exit-btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 30px;
+    background: rgba(22, 1, 15, 0.466);
+    border: 1px solid #ffffff;
+    outline: none;
+    border-radius: 7px;
+    font-size: 15px;
+    color: whitesmoke;
+    font-weight: 500;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    cursor: pointer;
+    transition: .3s;
+}
+
+.popup .buttons .continue-btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 30px;
+    background: rgba(22, 1, 15, 0.466);
+    border: 1px solid #ffffff;
+    outline: none;
+    border-radius: 7px;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    cursor: pointer;
+    transition: .3s;
+}
+
+.popup .buttons .continue-btn:hover {
+    background-color: #224e5c;
+    color: #000000;
+}
+
+.popup .buttons .exit-btn:hover {
+    background-color: #224e5c;
+    color: #000000;
+}
+
+.button {
+    background-color: #a1a1a1;
+    color: #000000;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #ff0080a1;
+}

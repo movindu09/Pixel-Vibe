@@ -1,0 +1,37 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+:root {
+  --text-color: #000000;
+  --main-color: #000000;
+}
+
+.heading h1{
+  margin-top: 5%;
+  text-align: center;
+
+}
+
+.heading li{
+  list-style: disc;
+}
+
+.image1{
+  width: 500px;
+  height: auto;
+  margin-left: 500px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.page-editor a{
+  color: #ff0080;
+  margin-top: 50px;
+  font-weight: bold;
+}
+

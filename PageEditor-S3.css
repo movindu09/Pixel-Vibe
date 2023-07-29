@@ -1,0 +1,151 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+}
+
+main {
+    padding: 20px;
+    animation: myAnimT 2s ease-in 0s 1 normal forwards;
+}
+
+@keyframes myAnimT {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+section {
+    top: 2rem;
+    position: relative;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+li strong {
+    display: inline-block;
+    width: 100px;
+    font-weight: bold;
+}
+
+.container {
+    background-color: rgba(217, 217, 217, 0.066);
+    border-radius: .5rem;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, .3);
+    overflow: hidden;
+    position: relative;
+    padding: 5rem;
+    justify-content: center;
+    width: 50rem;
+    margin: 5rem auto;
+    border-bottom-color: red;
+    line-height: 2rem;
+    display: flex;
+}
+
+.text {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+}
+
+.topic {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.button {
+    background-color: #1E1E1E;
+    color: #fdfdfd;
+    border: 1rem;
+    padding: 1rem;
+    border-radius: .5rem;
+    width: 20rem;
+    margin: 1rem auto;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .3s ease;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: block;
+}
+
+.button:hover {
+    background-color: #1E1E1E;
+    opacity: 0.8;
+    transition: all .3s ease;
+}
+
+body {
+    background-color: #2234ae;
+    background-image: linear-gradient(315deg, #2234ae 0%, #191714 74%);
+    color: #fdfdfd;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.copy {
+    background: transparent;
+}
+
+.heading {
+    width: 80%;
+    height: 100%;
+    max-width: 1200px;
+    margin: 5rem auto;
+    padding: 0 1rem;
+    font-size: 40px;
+    color: #fdfdfd;
+}
+
+.headingN {
+    margin: 5rem auto;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+}
+
+.pImage {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.ImgContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 90px;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+}
